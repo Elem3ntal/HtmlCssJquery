@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+  height: 100%;
+}
+body{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, blue); /* Standard syntax (must be last) */
+}
+.tabla {
+    display: table;
+    width: 90%;
+}
+.izquierda {
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    left: 0px;
+    width: 50%;
+}
+
+.derecha {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    right: 0px;
+    width: 50%;
+}
+#principal {
+    background: #909090;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 5% 5% 5px 5%;
+}
+
+#round {
+    background-color: white;
+    margin: 0 auto;
+    height: 90px;
+    width: 90px;
+    border: solid;
+    border-radius: 100px;
+    border-color: #C5C5C5;
+    border-width: 20px;
+}
+
+#name {
+    border-radius: 15px;
+    background: #c5c5c5;
+}
+#name p{
+    border-style: solid;
+    border-width: 5px 2px 5px 20px;
+    border-color: transparent;
+}
+/*Remover efectos especiales de los A*/
+a, a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#Footer{
+    bottom: 0px;
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    background-color: #1A1A1A;
+    color: #1E1E1E;
+    display: table;
+}
+#sponsors{
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    color: white;
+}
+#sponsors a{
+    margin: 0px 10px 0px 10px;
+}
