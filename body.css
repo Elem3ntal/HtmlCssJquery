@@ -75,12 +75,15 @@ a, a:link, a:visited, a:hover {
     color: #1E1E1E;
     display: table;
 }
-#sponsors{
+#elements{
     display: table-cell;
     vertical-align: middle;
     text-align:center;
     color: white;
 }
-#sponsors a{
+#elements a:hover{
+    text-shadow: 0 0 5px #fff144;
+}
+#elements a{
     margin: 0px 10px 0px 10px;
 }
